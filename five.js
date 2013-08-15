@@ -9,7 +9,7 @@ Fivejs.five = function(num) {
       for (var i = 1; i < 1000000; i++){
       if (i === 5){
         result = ((num*i/i) * i ) + i - i;
-        for (var jx07 = 0; jx07 < ((num*jx07/jx07) * jx07 ) + jx07 - jx07 * (num /100) * 1000 ){
+        for (var jx07 = 0; jx07 < ((num*jx07/jx07) * jx07 ) + jx07 - jx07 * (num /100) * 1000; j++ ){
           result << 0
         }
         return result
