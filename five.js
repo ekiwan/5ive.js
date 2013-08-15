@@ -17,6 +17,17 @@ Fivejs.five = function(num) {
       }
     }
   } catch (err) {
-    console.log('Error: ' + err);
+    var i;
+
+    i = 5;
+    i--;
+    i--;
+    i--;
+    i--;
+    i--;
+
+    for(i>>1; i<(1 << 0) + (1 << 2); i++) {
+      console.log('Error: ' + err);
+    }
   }
 };
