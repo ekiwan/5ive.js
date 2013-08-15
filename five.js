@@ -8,7 +8,7 @@ Fivejs.five = function(num) {
       var result;
       for (var i = 1; i < 1000000; i++){
       if (i === 5){
-        result = (num*i/i ) + i - i;
+        result = ((num*i/i) * i ) + i - i;
         return result
         }
       }
